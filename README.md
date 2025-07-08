@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/github/stars/MikaYelovich/mika-baileys?color=purple&style=for-the-badge" alt="GitHub Stars"/>
   </a>
   <a href="https://www.npmjs.com/package/mika-baileys">
-    <img src="https://img.shields.io/npm/v/MikaYelovich/mika-baileys?color=crimson&style=for-the-badge" alt="NPM Version"/>
+    <img src="https://img.shields.io/npm/v/mika-baileys?color=crimson&style=for-the-badge" alt="NPM Version"/>
   </a>
   <a href="https://github.com/MikaYelovich/mika-baileys/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/MikaYelovich/mika-baileys?style=for-the-badge&color=green" alt="License"/>
