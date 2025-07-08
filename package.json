@@ -1,5 +1,5 @@
 {
-  "name": "mika-baileys",
+  "name": "mika-automate",
   "version": "1.0.0",
   "description": "WhatsApp API with a lot of features",
   "keywords": [
@@ -14,9 +14,9 @@
     "mika",
     "mika-stereo"
   ],
-  "homepage": "https://github.com/MikaYelovich/mika-baileys",
+  "homepage": "https://github.com/MikaYelovich/mika-automate",
   "repository": {
-    "url": "git@github.com:MikaYelovich/mika-baileys.git"
+    "url": "git@github.com:MikaYelovich/mika-automate.git"
   },
   "license": "MIT",
   "author": "Mika Stereo",

@@ -12,14 +12,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MikaYelovich/mika-baileys">
-    <img src="https://img.shields.io/github/stars/MikaYelovich/mika-baileys?color=purple&style=for-the-badge" alt="GitHub Stars"/>
+  <a href="https://github.com/MikaYelovich/mika-automate">
+    <img src="https://img.shields.io/github/stars/MikaYelovich/mika-automate?color=purple&style=for-the-badge" alt="GitHub Stars"/>
   </a>
-  <a href="https://www.npmjs.com/package/mika-baileys">
-    <img src="https://img.shields.io/npm/v/mika-baileys?color=crimson&style=for-the-badge" alt="NPM Version"/>
+  <a href="https://www.npmjs.com/package/mika-automate">
+    <img src="https://img.shields.io/npm/v/mika-automate?color=crimson&style=for-the-badge" alt="NPM Version"/>
   </a>
-  <a href="https://github.com/MikaYelovich/mika-baileys/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/MikaYelovich/mika-baileys?style=for-the-badge&color=green" alt="License"/>
+  <a href="https://github.com/MikaYelovich/mika-automate/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/MikaYelovich/mika-automate?style=for-the-badge&color=green" alt="License"/>
   </a>
 </p>
 
@@ -57,14 +57,14 @@ Forget bloated headless browser setups — this is the modern, scalable, and eff
 ## 📦 Installation
 
 ```bash
-npm install mika-baileys
+npm install mika-automate
 
 ```
 
 ## 🚀 Quick Example
 
 ```ts
-import makeWASocket from "mika-baileys";
+import makeWASocket from "mika-automate";
 
 const sock = makeWASocket({
   printQRInTerminal: true,
