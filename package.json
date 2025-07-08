@@ -1,7 +1,7 @@
 {
-  "name": "baileys-wa",
+  "name": "mika-baileys",
   "version": "1.0.0",
-  "description": "WhatsApp API",
+  "description": "WhatsApp API with a lot of features",
   "keywords": [
     "whatsapp",
     "js-whatsapp",
@@ -14,9 +14,9 @@
     "mika",
     "mika-stereo"
   ],
-  "homepage": "https://github.com/WhiskeySockets/Baileys",
+  "homepage": "https://github.com/MikaYelovich/mika-baileys",
   "repository": {
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
+    "url": "git@github.com:MikaYelovich/mika-baileys.git"
   },
   "license": "MIT",
   "author": "Mika Stereo",

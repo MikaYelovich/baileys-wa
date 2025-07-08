@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&pause=1000&center=true&vCenter=true&multiline=true&width=700&height=80&lines=⚡+WhatsApp+Baileys+%7C+Next-Gen+Automation+Library" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&pause=1000&center=true&vCenter=true&multiline=true&color=02008a&width=700&height=80&lines=⚡+WhatsApp+Baileys+%7C+Next-Gen+Automation+Library" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/n6qvqj.jpeg" width="500" alt="Banner" />
+  <img src="https://files.catbox.moe/mukoik.jpeg" width="500" alt="Banner" />
 </p>
 
 <p align="center">
@@ -12,14 +12,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/whiskeysockets/baileys">
-    <img src="https://img.shields.io/github/stars/MikaYelovich/baileys-wa?color=purple&style=for-the-badge" alt="GitHub Stars"/>
+  <a href="https://github.com/MikaYelovich/mika-baileys">
+    <img src="https://img.shields.io/github/stars/MikaYelovich/mika-baileys?color=purple&style=for-the-badge" alt="GitHub Stars"/>
   </a>
-  <a href="https://www.npmjs.com/package/@whiskeysockets/baileys">
-    <img src="https://img.shields.io/npm/v/MikaYelovich/baileys-wa?color=crimson&style=for-the-badge" alt="NPM Version"/>
+  <a href="https://www.npmjs.com/package/mika-baileys">
+    <img src="https://img.shields.io/npm/v/MikaYelovich/mika-baileys?color=crimson&style=for-the-badge" alt="NPM Version"/>
   </a>
-  <a href="https://github.com/whiskeysockets/baileys/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/MikaYelovich/baileys-wa?style=for-the-badge&color=green" alt="License"/>
+  <a href="https://github.com/MikaYelovich/mika-baileys/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/MikaYelovich/mika-baileys?style=for-the-badge&color=green" alt="License"/>
   </a>
 </p>
 
@@ -57,14 +57,14 @@ Forget bloated headless browser setups — this is the modern, scalable, and eff
 ## 📦 Installation
 
 ```bash
-npm install @MikaYelovich/baileys-wa
+npm install mika-baileys
 
 ```
 
 ## 🚀 Quick Example
 
 ```ts
-import makeWASocket from "@MikaYelovich/baileys-wa";
+import makeWASocket from "mika-baileys";
 
 const sock = makeWASocket({
   printQRInTerminal: true,
