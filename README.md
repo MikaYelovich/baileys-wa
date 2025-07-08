@@ -13,13 +13,13 @@
 
 <p align="center">
   <a href="https://github.com/whiskeysockets/baileys">
-    <img src="https://img.shields.io/github/stars/@MikaYelovich/baileys-wa?color=purple&style=for-the-badge" alt="GitHub Stars"/>
+    <img src="https://img.shields.io/github/stars/MikaYelovich/baileys-wa?color=purple&style=for-the-badge" alt="GitHub Stars"/>
   </a>
   <a href="https://www.npmjs.com/package/@whiskeysockets/baileys">
-    <img src="https://img.shields.io/npm/v/@MikaYelovich/baileys-wa?color=crimson&style=for-the-badge" alt="NPM Version"/>
+    <img src="https://img.shields.io/npm/v/MikaYelovich/baileys-wa?color=crimson&style=for-the-badge" alt="NPM Version"/>
   </a>
   <a href="https://github.com/whiskeysockets/baileys/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/@MikaYelovich/baileys-wa?style=for-the-badge&color=green" alt="License"/>
+    <img src="https://img.shields.io/github/license/MikaYelovich/baileys-wa?style=for-the-badge&color=green" alt="License"/>
   </a>
 </p>
 
