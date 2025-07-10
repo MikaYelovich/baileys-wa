@@ -1,6 +1,6 @@
 {
   "name": "mika-automate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "WhatsApp API with a lot of features",
   "keywords": [
     "whatsapp",
@@ -25,7 +25,8 @@
   "files": [
     "lib/*",
     "WAProto/*",
-    "WASignalGroup/*.js"
+    "WASignalGroup/*.js",
+    "src/*"
   ],
   "scripts": {
     "build:all": "tsc && typedoc",
@@ -46,16 +47,19 @@
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@hapi/boom": "^9.1.3",
     "@cacheable/node-cache": "^1.4.0",
+    "@hapi/boom": "^9.1.3",
     "audio-decode": "^2.1.3",
     "axios": "^1.3.3",
     "cache-manager": "4.0.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
     "futoin-hkdf": "^1.5.1",
     "libphonenumber-js": "^1.10.20",
     "libsignal": "github:adiwajshing/libsignal-node",
     "music-metadata": "^7.12.3",
     "node-cache": "^5.1.2",
+    "node-webpmux": "^3.2.1",
     "pino": "^7.0.0",
     "protobufjs": "^7.2.4",
     "uuid": "^9.0.0",
@@ -72,22 +76,22 @@
     "eslint": "^8.0.0",
     "jest": "^27.0.6",
     "jimp": "^0.16.1",
+    "json": "^11.0.0",
     "link-preview-js": "^3.0.0",
     "open": "^8.4.2",
     "qrcode-terminal": "^0.12.0",
     "release-it": "^15.10.3",
-    "sharp": "^0.30.5",
+    "sharp": "^0.30.7",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.8.1",
     "typedoc": "^0.24.7",
-    "typescript": "^4.6.4",
-    "json": "^11.0.0"
+    "typescript": "^4.6.4"
   },
   "peerDependencies": {
     "jimp": "^0.16.1",
     "link-preview-js": "^3.0.0",
     "qrcode-terminal": "^0.12.0",
-    "sharp": "^0.32.2"
+    "sharp": "^0.30.7"
   },
   "peerDependenciesMeta": {
     "jimp": {

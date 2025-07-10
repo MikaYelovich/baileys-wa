@@ -116,6 +116,23 @@ declare const makeWASocket: (config: UserFacingSocketConfig) => {
     content: import("../Types").AnyMessageContent,
     options?: import("../Types").MiscMessageGenerationOptions
   ) => Promise<import("../Types").WAProto.WebMessageInfo | undefined>;
+  /**
+   * Sends a sticker to the specified JID using a messaging API.
+   * Automatically handles conversion and metadata.
+   *
+   * @param jid - The recipient's JID (e.g., WhatsApp ID)
+   * @param filePath - Path to the media file (image or video)
+   * @param meta - Optional EXIF metadata
+   * @returns Promise<void>
+   */
+  sendSticker: (
+    jid: string,
+    filePath: string,
+    meta?: {
+      author?: string;
+      pack?: string;
+    }
+  ) => Promise<any>;
   sendSingleSelectButton: (
     jid: string,
     config: {
@@ -285,6 +302,18 @@ declare const makeWASocket: (config: UserFacingSocketConfig) => {
   newsletterRemovePicture: (jid: string) => Promise<void>;
   newsletterUnfollow: (jid: string) => Promise<void>;
   newsletterFollow: (jid: string) => Promise<void>;
+  /**
+   * Follows multiple newsletters identified by JID.
+   *
+   * @param jids - An array of strings matching the pattern /^\d+@newsletter$/
+   * @returns A Promise that resolves when all valid follow requests have been processed.
+   * @implements 🍃 by Zann Roderizz
+   * @throws If input is not an array or contains no valid JIDs.
+   * @example
+   * const jids = ['123456789@newsletter', '987654321@newsletter'];
+   * await sock.newsletterManyFollow(jids);
+   */
+  newsletterManyFollow: (jids: string[]) => Promise<void>;
   newsletterUnmute: (jid: string) => Promise<void>;
   newsletterMute: (jid: string) => Promise<void>;
   newsletterAction: (

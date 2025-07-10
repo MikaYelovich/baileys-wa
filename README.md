@@ -1,7 +1,7 @@
 # ⚡ WhatsApp Baileys | Next-Gen WhatsApp Automation Library
 
 <p align="center">
-  <img src="https://files.catbox.moe/96tgfd.jpeg" width="600" alt="Banner WhatsApp Baileys"/>
+  <img src="https://files.catbox.moe/757psc.jpeg" width="600" alt="Banner WhatsApp Baileys"/>
 </p>
 
 ## 🔥 Revolutionize Your WhatsApp Bots — The Modern Way
@@ -158,7 +158,7 @@ startBot().catch((err) => {
 
 ---
 
-## 🍃 New Features on update v1.0.1
+## 🍃 New Features on update v1.0.2
 
 Here’s a quick example of a basic implementation to get you started.
 
@@ -338,6 +338,27 @@ await sock.sendSingleSelectButton(m.chat, {
       ],
     },
   ],
+});
+```
+
+**function newsletterManyFollow()**
+
+> **🥞 Note:**
+> We've extended the `newsletterFollow` functionality to support multiple newsletter sources in a single call, allowing batch operations and improved user experience.
+
+```ts
+const jids = ["123456789@newsletter", "987654321@newsletter"];
+await sock.newsletterManyFollow(jids);
+```
+
+**function sendSticker()**
+
+> 🌸 his method provides a simplified way to send stickers, implemented as a custom function for better control and flexibility over media message handling.
+
+```ts
+await sock.sendSticker(m.chat, "./memes/cat.mp4", {
+  author: "Zann Roderizz",
+  pack: "Animal Memes",
 });
 ```
 
