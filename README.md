@@ -396,3 +396,11 @@ Whether you're building a chatbot, a smart reply engine, or a full-blown automat
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=20&pause=1000&color=00FFE0&center=true&vCenter=true&width=500&lines=Build.+Automate.+Scale.+Conquer+WhatsApp." />
 </p>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<div id="particles-js"></div>
+<script>
+  particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('particles.js loaded');
+  });
+</script>
